@@ -1,0 +1,61 @@
+@mixin transparente{
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9px );
+    -webkit-backdrop-filter: blur( 9px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+@mixin transparencia{
+    backdrop-filter: blur( 9px );
+    -webkit-backdrop-filter: blur( 9px );
+};
+
+@mixin btn-agregar {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0.7em 1.4em 0.7em 1.1em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+    svg{
+        margin-right: 6px; 
+    }
+    &:hover{
+        box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+    }
+    &:active{
+        box-shadow: 0 0.3em 1em -0.5em #14a73e98; 
+    }
+}
+
+@mixin tarjeta {
+    margin: 20px;
+    border-radius: 30px;
+    width: 250px;
+    height: 330px;
+    img{
+        transition: all 0.3s;
+        position: relative;
+        right: 20px;
+        top: -20px;
+        width: 300px;
+        &:hover{
+            transform: scale(1.1) rotate(2deg);
+        }
+    }
+    .leyenda{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+    }
+    
+}

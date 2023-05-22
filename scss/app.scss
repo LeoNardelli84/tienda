@@ -1,0 +1,14 @@
+//iconos de bootstrap
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+//google font precios
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+//basics
+@import 'basics/resets.scss';
+//components
+@import 'components/tarjeta.scss';
+@import 'components/btn-agregar.scss';
+//utilities
+@import 'utilities/funciones.scss';
+@import 'utilities/mixins.scss';
+//layouts
+@import 'layouts/header.scss';
