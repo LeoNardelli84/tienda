@@ -1,11 +1,16 @@
 ul{
     li{
         list-style:none;
-        
     }
 }
 
 html{
     scroll-behavior: smooth;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 
+.container-fluid{
+    padding: 0px;
+}
