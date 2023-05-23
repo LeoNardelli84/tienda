@@ -1,20 +1,25 @@
 @import '../utilities/mixins.scss';
 
+header{
+  background-color: white;
+  box-shadow: 0px 0px 15px 20px white;
+}
 #btn-menu, #btn-config, #btn-cerrar{
-    font-size: 32px;
+    font-size: 36px;
+    padding: 5px;
 }
 
 //buscador
 .input__container {
     position: relative;
     background: rgba(255, 255, 255, 0.664);
-    padding: 10px 15px;
+    padding: 10px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
     border-radius: 22px;
-    max-width: 300px;
+    max-width: 280px;
     transition: transform 400ms;
     transform-style: preserve-3d;
     
@@ -57,14 +62,14 @@
 
   .input__search {
     transition: all ease 0.2s;
-    width: 100%;
+    width: 90%;
     border-radius: 20px;
     outline: none;
     border: none;
     padding: 8px;
     position: relative;
     &:focus{
-        width: 250px;
+        width: 280px;
     }
   }
 

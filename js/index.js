@@ -1,4 +1,5 @@
-$("#btn-buscar").click(function(){
-    var busqueda = $("#buscador").val();
-    alert(busqueda);
+var busqueda = $("#buscador");
+
+busqueda.on("keyup", function(){
+    console.log(busqueda.val());
 });

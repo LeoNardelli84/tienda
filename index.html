@@ -16,7 +16,7 @@
             
             <div class="row header-celu">
                 <!--menu desplegable izquierda-->
-                <div class=" col-2 d-flex justify-content-start">
+                <div class=" col-2 d-flex justify-content-center">
                     <button id="btn-menu" class="btn" data-bs-toggle="offcanvas" data-bs-target="#sidebar"><i class="bi bi-list"></i></button>
                     <div class="offcanvas offcanvas-start" id="sidebar">
                         <div class="offcanvas-header">
@@ -51,11 +51,11 @@
                 <div class="col-8 d-flex justify-content-center">
                     <div class="input__container">
                         <div class="shadow__input"></div>
-                        <button id="btn-buscar" class="input__button__shadow">
-                          <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="20px" width="20px">
-                            <path d="M4 9a5 5 0 1110 0A5 5 0 014 9zm5-7a7 7 0 104.2 12.6.999.999 0 00.093.107l3 3a1 1 0 001.414-1.414l-3-3a.999.999 0 00-.107-.093A7 7 0 009 2z" fill-rule="evenodd" fill="#17202A"></path>
-                          </svg>
-                        </button>
+                            <!-- <button id="btn-buscar" class="input__button__shadow">
+                                <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="20px" width="20px">
+                                <path d="M4 9a5 5 0 1110 0A5 5 0 014 9zm5-7a7 7 0 104.2 12.6.999.999 0 00.093.107l3 3a1 1 0 001.414-1.414l-3-3a.999.999 0 00-.107-.093A7 7 0 009 2z" fill-rule="evenodd" fill="#17202A"></path>
+                                </svg>
+                            </button> -->
                         <input id="buscador" type="text" name="text" class="input__search text-center" placeholder="Que buscas?">
                       </div>
                 </div>
@@ -64,13 +64,15 @@
                     <button id="btn-menu" class="btn" data-bs-toggle="offcanvas" data-bs-target="#config"><i class="bi bi-gear"></i></button>
                     <div class="offcanvas offcanvas-end" id="config">
                         <div class="offcanvas-header">
-                            <div class="offcanvas-title">
+                            <div class="offcanvas-title ">
                                 <button id="btn-cerrar" class="btn" data-bs-dismiss="offcanvas"><i class="bi bi-x"></i></button>
                             </div>
                         </div>
                         <div class="offcanvas-body">
                             <!--aqui el cuerpo del menu configuracion-->
-                            <p>tezst</p>
+                            <div class="">
+
+                            </div>
                         </div>
 
                     </div>
@@ -82,9 +84,9 @@
             
         </header>
 
-        <section>
-            <div class="">
-                <h1 class="text-center">Piccardelli</h1>
+        <section class="contenedor-ofertas">
+            <div class="titulo">
+                <h1 class="text-center">Snikers</h1>
             </div>
             <div class="slider-ofertas">
                 <div class="tarjeta">
@@ -97,8 +99,7 @@
                     </div>
                     <div class="d-flex justify-content-center">
                         <button class="cssbuttons-io-button">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z"></path></svg>
-                            <span>Agregar</span>
+                            <span>Comprar</span>
                         </button>
                     </div>
                 </div><!--fin div tarjeta-->
@@ -112,8 +113,7 @@
                     </div>
                     <div class="d-flex justify-content-center">
                         <button class="cssbuttons-io-button">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z"></path></svg>
-                            <span>Agregar</span>
+                            <span>Comprar</span>
                         </button>
                     </div>
                 </div><!--fin div tarjeta-->
@@ -127,8 +127,7 @@
                     </div>
                     <div class="d-flex justify-content-center">
                         <button class="cssbuttons-io-button">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z"></path></svg>
-                            <span>Agregar</span>
+                            <span>Comprar</span>
                         </button>
                     </div>
                 </div><!--fin div tarjeta-->
@@ -142,13 +141,16 @@
                     </div>
                     <div class="d-flex justify-content-center">
                         <button class="cssbuttons-io-button">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z"></path></svg>
-                            <span>Agregar</span>
+                            <span>Comprar</span>
                         </button>
                     </div>
                 </div><!--fin div tarjeta-->
 
             </div>
+        </section>
+
+        <section class="contenedor-lista">
+            <h2 class="text-center"></h2>
         </section>
         <footer>
 

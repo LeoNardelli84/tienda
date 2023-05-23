@@ -4,13 +4,10 @@ ul{
     }
 }
 
-html{
-    scroll-behavior: smooth;
-}
 ::-webkit-scrollbar {
     display: none;
 }
-
-.container-fluid{
-    padding: 0px;
+body{
+    background-image: linear-gradient(hsla(235,69%,77%,1), hsla(283,60%,72%,1));
+    background-repeat: no-repeat;
 }

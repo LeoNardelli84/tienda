@@ -1,19 +1,22 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 @import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
 ul li {
   list-style: none;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
   display: none;
 }
 
-.container-fluid {
-  padding: 0px;
+body {
+  background-image: linear-gradient(hsl(235, 69%, 77%), hsl(283, 60%, 72%));
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: "Amatic SC", cursive;
+  font-size: 45px;
 }
 
 .tarjeta {
@@ -42,6 +45,8 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: white;
+  z-index: 2;
 }
 
 .cssbuttons-io-button {
@@ -69,20 +74,26 @@ html {
   box-shadow: 0 0.3em 1em -0.5em rgba(20, 167, 62, 0.5960784314);
 }
 
+header {
+  background-color: white;
+  box-shadow: 0px 0px 15px 20px white;
+}
+
 #btn-menu, #btn-config, #btn-cerrar {
-  font-size: 32px;
+  font-size: 36px;
+  padding: 5px;
 }
 
 .input__container {
   position: relative;
   background: rgba(255, 255, 255, 0.664);
-  padding: 10px 15px;
+  padding: 10px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 5px;
   border-radius: 22px;
-  max-width: 300px;
+  max-width: 280px;
   transition: transform 400ms;
   transform-style: preserve-3d;
   perspective: 500px;
@@ -119,7 +130,7 @@ html {
 
 .input__search {
   transition: all ease 0.2s;
-  width: 100%;
+  width: 90%;
   border-radius: 20px;
   outline: none;
   border: none;
@@ -127,7 +138,7 @@ html {
   position: relative;
 }
 .input__search:focus {
-  width: 250px;
+  width: 280px;
 }
 
 .list-categorias {
@@ -153,6 +164,10 @@ html {
   flex-direction: row;
   overflow-x: auto;
   height: 350px;
+}
+
+.contenedor-lista {
+  height: 100vh;
 }
 
 /*# sourceMappingURL=app.css.map */
