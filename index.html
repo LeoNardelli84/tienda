@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="container-fluid">
-        <header>
+        <header class="fixed-top">
             
             <div class="row header-celu">
                 <!--menu desplegable izquierda-->
@@ -94,7 +94,21 @@
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVzJNChi8uHEg3_3MuVvIlJEQ6iaZLyFUOLw&usqp=CAU" alt="">
                     </div>
                     <div class="leyenda">
-                        <p class="text-center">Zapatillas Ultraboost DNA x Argentina</p>
+                        <p class="text-center">Rutini</p>
+                        <h4 class="text-center">$4.399</h4>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button class="cssbuttons-io-button">
+                            <span>Comprar</span>
+                        </button>
+                    </div>
+                </div><!--fin div tarjeta-->
+                <div class="tarjeta">
+                    <div class="img">
+                        <img src="assets/zapas.png" alt="">
+                    </div>
+                    <div class="leyenda">
+                        <p class="text-center">Zapatilla</p>
                         <h4 class="text-center">$123.990</h4>
                     </div>
                     <div class="d-flex justify-content-center">
@@ -108,21 +122,7 @@
                         <img src="assets/zapas.png" alt="">
                     </div>
                     <div class="leyenda">
-                        <p class="text-center">Zapatillas Ultraboost DNA x Argentina</p>
-                        <h4 class="text-center">$123.990</h4>
-                    </div>
-                    <div class="d-flex justify-content-center">
-                        <button class="cssbuttons-io-button">
-                            <span>Comprar</span>
-                        </button>
-                    </div>
-                </div><!--fin div tarjeta-->
-                <div class="tarjeta">
-                    <div class="img">
-                        <img src="assets/zapas.png" alt="">
-                    </div>
-                    <div class="leyenda">
-                        <p class="text-center">Zapatillas Ultraboost DNA x Argentina</p>
+                        <p class="text-center">Zapatillas</p>
                         <h4 class="text-center">$123.990</h4>
                     </div>
                     <div class="d-flex justify-content-center">
@@ -136,7 +136,7 @@
                         <img src="data:image/jpeg;base64,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" alt="">
                     </div>
                     <div class="leyenda">
-                        <p class="text-center">Zapatillas Ultraboost DNA x Argentina</p>
+                        <p class="text-center">Alma mora</p>
                         <h4 class="text-center">$123.990</h4>
                     </div>
                     <div class="d-flex justify-content-center">
