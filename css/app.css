@@ -16,14 +16,15 @@ body {
 
 h1 {
   font-family: "Amatic SC", cursive;
-  font-size: 45px;
+  font-size: 55px;
+  color: black;
 }
 
 .tarjeta {
   margin: 20px;
   border-radius: 30px;
   width: 150px;
-  height: 250px;
+  height: 230px;
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(9px);
@@ -32,14 +33,15 @@ h1 {
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 .tarjeta img {
+  border-radius: 10px;
   transition: all 0.3s;
   position: relative;
-  right: 20px;
-  top: -20px;
-  width: 200px;
-}
-.tarjeta img:hover {
-  transform: scale(1.1) rotate(2deg);
+  left: 50%;
+  top: -15px;
+  transform: translate(-50%);
+  width: 180px;
+  max-height: 125px;
+  filter: drop-shadow(0 8px 32px 0 rgba(31, 38, 135, 0.45));
 }
 .tarjeta .leyenda {
   display: flex;
@@ -168,6 +170,10 @@ header {
 
 .contenedor-lista {
   height: 100vh;
+}
+
+.contenedor-ofertas {
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=app.css.map */
